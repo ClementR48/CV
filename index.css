@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 900px;
+  background-color: #12a4d9;
+  font-family: 'Lora', serif;
+  margin: auto;
+  color: rgb(83, 65, 65);
+  
+}
+
+
+header {
+  background: linear-gradient(grey, black);
+  padding: 20px;
+  color: rgb(240, 224, 224); 
+}
+
+.informations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 span {
+  font-size: smaller;
+  font-style: italic;
+}
+
+header .info {
+  margin-top: 15px;
+}
+
+header .info span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+header .info > * {
+  margin-top: 20px;
+}
+
+.portofoglio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+header a {
+  color: #12a4d9;
+  border: 1px #12a4d9 solid;
+  padding: 10px 17px;
+  transition: all 0.2s;
+  text-decoration: none;
+  text-align: center;
+}
+
+header  a:hover {
+  color: black;
+  background-color: #12a4d9;
+  transition: all 0.3s;
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+
+
+
+
+main {
+  padding: 0 20px;
+  background-color: rgb(252, 249, 245);
+}
+
+h2 {
+  color: #12a4d9;
+  margin-bottom: 30px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+
+main li {
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+main .skills {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: black 2px solid;
+  padding: 50px;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.skills .langages {
+  flex: 0.4;
+}
+
+.skills .langues {
+  flex: 0.4;
+}
+
+.skills_li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.etoile {
+  width: 70px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plein {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  border: black 1px solid;
+}
+
+.vide {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+
+.react {
+  font-weight: 600;
+}
+
+
+
+main .compform {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: black 2px solid;
+  padding: 50px;
+}
+
+.competences {
+  flex: 0.4;
+}
+
+.competences ol {
+  padding-left: 20px;
+}
+
+.formation {
+  flex: 0.4;
+}
+
+h3 span {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.formation .date {
+  font-style: italic;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.formation .description {
+  font-weight: bolder;
+}
+
+.formation .bac {
+  margin-top: 15px;
+}
+
+
+.parcours {
+  padding: 50px;
+  text-align: center;
+} 
+
+.parcours .date {
+  font-style: italic;
+}
+
+.parcours ul {
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
